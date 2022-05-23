@@ -2733,3 +2733,8 @@ xgallery
 .last {
   margin-right: 0;
 }
+
+figure {
+  background-color: lightgray;
+  height: 100%;
+}
