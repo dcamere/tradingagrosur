@@ -2824,3 +2824,10 @@ xgallery
 .custom-table__column:last-child div {
   border-right: 0;
 } */
+
+
+.services-bar {
+  padding-top: 40px;
+  margin-top: 40px;
+  border-top: 1px lightgray solid;
+}
