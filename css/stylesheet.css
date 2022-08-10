@@ -952,6 +952,22 @@ p.cursive{
    background-image: url("http://placehold.it/1920x800"); 
 }
 
+.products-background--quinoa {
+  background-image: url("../img/img_header_products_quinoa.png");
+}
+
+.products-background--chia {
+  background-image: url("../img/img_header_products_chia.png");
+}
+
+.products-background--amaranth {
+  background-image: url("../img/img_header_products_amaranth.png");
+}
+
+.products-background--canihua {
+  background-image: url("../img/img_header_products_canihua.png");
+}
+
 .blogs-background{
    background-image: url("http://placehold.it/1920x800"); 
 }
@@ -2743,11 +2759,11 @@ xgallery
   margin-right: 0;
 }
 
-figure {
-  border: 1px black solid; /*change later*/
+/* figure {
+  border: 1px black solid;
   background-color: gray;
   height: 100%;
-}
+} */
 
 
 @media (min-width: 992px) {
@@ -2756,3 +2772,55 @@ figure {
     flex: 9 9 12.5% !important;
   }
 }
+
+.custom-table {
+  border: 1px black solid;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-table tr {
+  border: 1px black solid;
+}
+
+.custom-table td {
+  padding: 6px;
+  font-size: 12px;
+  border: 1px black solid;
+}
+
+/* .custom-table tr:first-child td {
+  border: 1px black solid;
+} */
+
+.custom-table td:nth-child(odd) {
+  color: #009c39;
+}
+
+.custom-table span {
+  font-weight: bold;
+}
+
+/* .custom-table {
+  width: 100%;
+  display: flex;
+  border: 1px black solid;
+}
+
+.custom-table__column {
+  width: 50%;
+}
+
+.custom-table__column div {
+  border-bottom: 1px black solid;
+  border-right: 1px black solid;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.custom-table__column div:last-child {
+  border-bottom: 0;
+}
+
+.custom-table__column:last-child div {
+  border-right: 0;
+} */
