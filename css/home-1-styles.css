@@ -95,7 +95,7 @@ figure.icon-pic img{
 }
 
 .farm-bg{ 
-    background-image: url("http://placehold.it/1920x1080");
+    background-image: url("../img/img_home_history.png");
     height: 500px; 
     background-position: center;
     background-repeat: no-repeat;

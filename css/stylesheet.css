@@ -186,17 +186,20 @@ a:hover {
 }
 
 .btn-custom {
-  color: #EEC344;
+  /* color: #EEC344; */
+  color: #f7ba21;
   transition: 0.9s;
   padding: 0.3rem 1.125rem;
   font-size: 0.60rem;      
   background: transparent;
-  border: solid 2px #EEC344;
+  /* border: solid 2px #EEC344; */
+  border: solid 2px #f7ba21;
 }
 
 .btn-custom:hover {
   color: #FFF;
-  background: #EEC344;
+  /* background: #EEC344; */
+  background: #f7ba21;
   
 }
 
@@ -206,8 +209,10 @@ a:hover {
 
 .btn-custom.disabled, .btn-custom:disabled {
   color: #fff;
-  background-color: #e9b416;
-  border-color: #e9b416;
+  /* background-color: #e9b416;
+  border-color: #e9b416; */
+  background-color: #f7ba21;
+  border-color: #f7ba21;
 }
 
 .btn-custom:not(:disabled):not(.disabled):active, .btn-custom:not(:disabled):not(.disabled).active,
@@ -225,7 +230,7 @@ a:hover {
 a.btn-hover-corner {
   display: inline-block;
   text-decoration: none;
-  color: #EEC344;
+  color: #f7ba21;
   font-weight: bold;
   font-size: 14px;
   position: relative;
@@ -241,8 +246,8 @@ a.btn-hover-corner:before {
   display: block;
   height: 100%;
   width: 100%;
-  border-bottom: 2px solid #EEC344;
-  border-left: 2px solid #EEC344;
+  border-bottom: 2px solid #f7ba21;
+  border-left: 2px solid #f7ba21;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -254,8 +259,8 @@ a.btn-hover-corner:after {
   display: block;
   height: 100%;
   width: 100%;
-  border-top: 2px solid #EEC344;
-  border-right: 2px solid #EEC344;
+  border-top: 2px solid #f7ba21;
+  border-right: 2px solid #f7ba21;
   position: absolute;
   right: 0;
   top: 0;
@@ -310,7 +315,8 @@ a.btn-hover-corner:hover:after {
 
 .inner-color-2{
     padding: 1rem 0rem;
-    background-color: #EEC344;
+    /* background-color: #EEC344; */
+    background-color: #f7ba21;
     margin: 0rem;
     height: 270px;
     position: relative;
@@ -383,7 +389,7 @@ section{
 }
 
 .logo-brand{
-  width: 150px;
+  width: 200px;
   transition: 0.5s;
   position: relative;
   margin-top: -20px;
@@ -670,7 +676,7 @@ footer h4{
 }
 
 .footer-logo{
-    width: 150px;
+    width: 250px;
     margin-bottom: 1rem;
 }
 
@@ -749,7 +755,8 @@ p.cursive{
 
 .contact-info{
     padding: 4.5rem;
-    background-color: #46866C;
+    /* background-color: #46866C; */
+    background-color: #1a7c3b;
     height: 600px;
 }
 
@@ -769,7 +776,8 @@ p.cursive{
 
 .contact-info p{
     margin-bottom: 0px;
-    color: #EEC344;
+    /* color: #EEC344; */
+    color: #f7ba21;
 }
 
 .block-address, .block-phone, .block-email{
@@ -1273,7 +1281,7 @@ figure.about-pic img{
 }
 
 .wide-section-bg{ 
-    background-image: url("http://placehold.it/1920x1080");
+    background-image: url("../img/home_descarga.png");
     height: 500px; 
     background-position: center;
     background-repeat: no-repeat;
@@ -2220,7 +2228,8 @@ aside.left .list-group-item:hover .fas{
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
     font-weight: 600;
-    color: #46866C;
+    /* color: #46866C; */
+    color: #1a7c3b;
     text-align: center;
 }
 
@@ -2735,6 +2744,15 @@ xgallery
 }
 
 figure {
-  background-color: lightgray;
+  border: 1px black solid; /*change later*/
+  background-color: gray;
   height: 100%;
+}
+
+
+@media (min-width: 992px) {
+  .custom-grid-element {
+    max-width: 12.5% !important;
+    flex: 9 9 12.5% !important;
+  }
 }
